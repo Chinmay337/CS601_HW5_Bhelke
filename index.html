@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>.:: Chinmay B - Assignment 5 ::.</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div class="navbar">
+      <a href="index.html">Introduction</a>
+      <a href="index.html">Timeline</a>
+      <a class="active" href="index.html">Projects</a>
+      <a href="index.html">Technology Goals</a>
+      <a href="index.html">Interests + Hobbies</a>
+      <a href="index.html">Certifications</a>
+      <a href="index.html">Photography</a>
+      <a class="xright" href="about.asp">About</a>
+    </div>
+    <div class="main-content">
+      <h1>Assignment 5</h1>
+      <p>Please click the button below to see my career path.</p>
+      <button id="load-career">Load career path</button>
+      <hr />
+      <div id="loading" class="hidden">
+        <img
+          src="./loading.gif"
+          alt="loading"
+          width="400"
+          height="142"
+          class="center"
+        />
+      </div>
+
+      <div class="hidden">
+        <h1>Career path</h1>
+        <div id="career-container">
+          <!-- List of degrees will go here.-->
+        </div>
+
+        <div class="error-box hidden">
+          <h2>ERROR</h2>
+          <div id="error">
+            <!-- Error messages (if any) will go here. -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>&copy; 2021, Chinmay B</footer>
+
+    <script src="achivements.js"></script>
+  </body>
+</html>

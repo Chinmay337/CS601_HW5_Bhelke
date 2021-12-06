@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 30px;
+
+  margin-top: 50px; /* Add a top margin to avoid content overlay */
+}
+
+footer {
+  position: fixed; /* Set the navbar to fixed position */
+  bottom: 0; /* Position the navbar at the bottom of the page */
+  width: 100%; /* Full width */
+
+  margin: 0;
+  padding: 5px 10px 5px 10px;
+  background-color: #ddd;
+  color: #888;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7rem;
+  font-style: italic;
+}
+
+/* ------------------------------------------------------------ */
+
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #000044;
+  font-family: Arial, Helvetica, sans-serif;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #777;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background-color: #000022;
+  color: #aaf;
+}
+
+.navbar a.xright {
+  float: right;
+}
+
+.active {
+  background-color: #000000;
+  color: #eee;
+}
+
+#loading img.center {
+  display: block;
+  margin: 5px auto;
+}
+
+.error-box {
+  display: block;
+  margin: 10px auto;
+  padding: 0 0.5rem 1rem 0.5rem;
+  border: 2px solid red;
+  border-radius: 10px;
+  background-color: #f1d3d4;
+  min-height: 20px;
+  width: 80%;
+
+  box-shadow: 4px 3px 8px 1px #969696;
+  -webkit-box-shadow: 4px 3px 8px 1px #969696;
+}
+
+.hidden {
+  display: none;
+}
+
+.err-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.err-container h1 {
+  font-size: 5rem;
+}
+
+.err-container h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+#career-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.degree-box {
+  margin: 10px auto;
+  padding: 0 0.5rem 1rem 0.5rem;
+  border: 2px solid #bbbbbb;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+  min-height: 20px;
+  width: 28%;
+  max-width: 300px;
+
+  box-shadow: 4px 3px 8px 1px #969696;
+  -webkit-box-shadow: 4px 3px 8px 1px #969696;
+
+  color: #999;
+}
+
+.degree-box h2 {
+  font-size: 2rem;
+  color: #777;
+}
+
+@media screen and (max-width: 900px) {
+  .degree-box {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .degree-box {
+    width: 95%;
+  }
+}

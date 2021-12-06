@@ -1,0 +1,18 @@
+{
+  "FirstName": "Chinmay",
+  "LastName": "Bhelke",
+  "CollegeDegrees": [
+    {
+      "School": "Boston University",
+      "Program": "Computer Information Systems",
+      "DegreeType": "Master of Science",
+      "YearConferred": 2022
+    },
+    {
+      "School": "The Pennsylvania State University",
+      "Program": "Supply Chane Management",
+      "DegreeType": "Bachelor of Science",
+      "YearConferred": 2019
+    }
+  ]
+}
